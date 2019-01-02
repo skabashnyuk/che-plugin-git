@@ -1,0 +1,7 @@
+containers:
+ - name: git
+   image: ksmster/che-theia-dev:nightly
+   volumes:
+     - mountPath: "/projects"
+       name: projects
+   memory-limit: "300M"
