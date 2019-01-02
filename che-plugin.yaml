@@ -1,6 +1,6 @@
 containers:
  - name: git
-   image: ksmster/che-theia-dev:nightly
+   image: ksmster/che-plugin-git:nightly
    volumes:
      - mountPath: "/projects"
        name: projects
