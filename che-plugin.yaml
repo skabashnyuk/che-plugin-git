@@ -4,4 +4,4 @@ containers:
    volumes:
      - mountPath: "/projects"
        name: projects
-   memory-limit: "128M"
+   memory-limit: "200M"
