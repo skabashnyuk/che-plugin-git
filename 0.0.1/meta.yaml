@@ -1,0 +1,7 @@
+id: org.ksmster.git-sidecar
+version: 1.0.0
+type: Che Plugin
+name: git-sidecar
+title: Git sidecar
+description: Git sidecar
+url: https://github.com/skabashnyuk/che-plugin-git/raw/git/che-editor-plugin.tar.gz
