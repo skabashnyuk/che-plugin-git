@@ -1,5 +1,5 @@
 id: org.ksmster.git-sidecar
-version: 1.0.0
+version: 0.0.1
 type: Che Plugin
 name: git-sidecar
 title: Git sidecar

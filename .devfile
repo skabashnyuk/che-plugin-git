@@ -1,18 +1,17 @@
 specVersion: 0.0.1
-name: git-sidecar
+name: che-git-sidecar
 projects:
-  - name: plugins
+  - name: che
     source:
       type: git
-      location: 'https://github.com/skabashnyuk/eclipse-che-plugins.git'
+      location: 'https://github.com/eclipse/che.git'
 tools:
-  - name: broadway-sample
+  - name: theia-editor
     type: cheEditor
-    id: https://raw.githubusercontent.com/skabashnyuk/eclipse-che-plugins/master/org.ksmster.filebrowser:1.0.0
-commands:
-  - name: build
-    actions:
-      - type: exec
-        tool: broadway-sample
-        command: ls
-        workdir: /projects/eclipse-che-plugins
+    id: org.eclipse.che.editor.theia:1.0.0
+  - name: exec-plugin
+    type: chePlugin
+    id: che-machine-exec-plugin:0.0.1
+  - name: git-plugin
+    type: chePlugin
+    id: https://raw.githubusercontent.com/skabashnyuk/che-plugin-git/git/org.ksmster.git-sidecar:0.0.1
