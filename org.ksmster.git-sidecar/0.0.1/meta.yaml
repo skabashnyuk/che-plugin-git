@@ -4,4 +4,4 @@ type: Che Plugin
 name: git-sidecar
 title: Git sidecar
 description: Git sidecar
-url: https://github.com/skabashnyuk/che-plugin-git/raw/git/0.0.1/che-editor-plugin.tar.gz
+url: https://github.com/skabashnyuk/che-plugin-git/raw/git/org.ksmster.git-sidecar/0.0.1/che-plugin-git.tar.gz
